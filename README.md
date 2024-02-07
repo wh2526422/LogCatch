@@ -3,16 +3,16 @@
 
 功能界面比较简单，分为开始，中断，结束，还有拷贝。
 
-#start
+# start
 点击开始会开始抓取log，在后台开启一个服务
 
-#pause
+# pause
 点击pause会暂时中断抓取任务
 
-#stop
+# stop
 点击stop此次抓取任务结束
 
-#copy to
+# copy to
 点击copy to 会弹出一个弹框包含内部存储和外部存储会将所保存的log拷贝到目的地方便log提取
 
 应用还在完善中
