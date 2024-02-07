@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_start"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onButtonClick"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:text="START" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_stop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:onClick="onButtonClick"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:text="STOP" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_clean"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:onClick="onButtonClick"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:text="CLEAN" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_copy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:onClick="onButtonClick"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:text="COPY TO" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/holo_red_light"
+        android:layout_marginTop="24dp"
+        android:text="Log Path:  /sdcard/xbh_log  or  UsbDriver:root/xbh_log"/>
+</androidx.appcompat.widget.LinearLayoutCompat>

@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name" translatable="false">LogCatch</string>
+    <string name="select_path">Please select：</string>
+</resources>
